@@ -4,7 +4,6 @@ import Home from './components/Home'
 import Paste from './components/Paste'
 import ViewPaste from './components/ViewPaste'
 import Navabar from './components/Navbar'
-import EditPaste from './components/EditPaste'
 
 function App() {
   const routes = createBrowserRouter([
