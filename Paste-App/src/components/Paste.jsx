@@ -78,7 +78,7 @@ const Paste = () => {
                       </button>
 
                       <button className="p-2 rounded-[0.2rem]  border-2 border-[#c7c7c7]  hover:bg-black group hover:border-purple-500">
-                        <a href={`/pastes/${paste?._id}`} target="_blank">
+                        <a href={`/pastes/${paste?._id}`} target="_blank" rel="noopener noreferrer">
                           <Eye
                             className="text-white group-hover:text-purple-500"
                             size={20}
