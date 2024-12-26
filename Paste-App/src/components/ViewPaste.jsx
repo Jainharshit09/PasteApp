@@ -11,7 +11,7 @@ const ViewPaste = () => {
 
   if (!paste) {
     toast.error("Paste not found!");
-    return null;
+    return <div className="text-center text-red-500">Paste not found!</div>;
   }
 
   return (
