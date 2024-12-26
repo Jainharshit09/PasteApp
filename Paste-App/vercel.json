@@ -1,16 +1,16 @@
 {
   "rewrites": [
     {
-      "src": "/",
-      "dest": "/"
+      "source": "/",
+      "destination": "/"
     },
     {
-      "src": "/pastes",
-      "dest": "/"
+      "source": "/pastes",
+      "destination": "/"
     },
     {
-      "src": "/pastes/:id",
-      "dest": "/"
+      "source": "/pastes/:id",
+      "destination": "/"
     }
   ]
 }
